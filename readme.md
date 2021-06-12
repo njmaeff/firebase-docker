@@ -1,5 +1,10 @@
 # Firebase Local Development With Docker
 
+## Setup
+
+1. Ensure `docker` and `docker-compose` are installed.
+1. Run `yarn install` to install project dependencies. `yarn` must be installed.
+
 ## Important Files
 
 - `.firebaserc` - Add configuration data related to your firebase project.
