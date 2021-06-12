@@ -1,0 +1,14 @@
+{
+  "name": "@njmaeff/root",
+  "description": "demo project using firebase emulators",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "global:start-emulators": "docker-compose up -d firebase.local"
+  },
+  "workspaces": {
+    "packages": [
+      "src/*"
+    ]
+  }
+}
