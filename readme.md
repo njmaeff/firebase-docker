@@ -1,9 +1,14 @@
 # Firebase Local Development With Docker
 
 ## Setup
+This example uses `docker` to run the emulators and `yarn` as a package manager.
 
 1. Ensure `docker` and `docker-compose` are installed.
 1. Run `yarn install` to install project dependencies. `yarn` must be installed.
+
+## Testing
+
+Change directory into one of the examples and run `yarn test`.
 
 ## Important Files
 
