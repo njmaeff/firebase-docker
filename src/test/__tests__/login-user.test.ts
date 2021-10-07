@@ -15,6 +15,7 @@ describe('authentication', () => {
     afterEach(async () => {
         await removeUserByEmail(user)
     });
+
     test('login', async () => {
         const auth = withFirebaseAuth();
         const response = await auth.signInWithEmailAndPassword(user, password);
@@ -23,4 +24,3 @@ describe('authentication', () => {
 
     });
 });
-

@@ -9,5 +9,6 @@ module.exports = {
     transformIgnorePatterns: [`/node_modules/(?!${esModules})`, `.js$`],
     modulePathIgnorePatterns: [".tmp", "out"],
     rootDir: __dirname,
-    preset: "ts-jest/presets/js-with-ts",
+    preset: "ts-jest",
+    // preset: "ts-jest/presets/js-with-ts",
 }

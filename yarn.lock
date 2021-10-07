@@ -1373,9 +1373,11 @@ __metadata:
   dependencies:
     "@njmaeff/firebase-auth-admin": "workspace:*"
     "@njmaeff/firebase-auth-client": "workspace:*"
+    "@types/faker": ^5.5.8
     "@types/jest": ^26.0.23
     "@types/node": ^14.14.21
     dotenv: ^10.0.0
+    faker: ^5.5.3
     jest: ^27.2.4
     ts-jest: ^27.0.5
     typescript: ^4.3.2
@@ -1609,6 +1611,13 @@ __metadata:
     "@types/qs": "*"
     "@types/serve-static": "*"
   checksum: 5869f575f66e5ea891a00fd253719577a1afe8d39fba47f3f24539188dac351d61f4511a168c6b5b5c902c724b26809950421325887896f5e23f28a3a2aa9458
+  languageName: node
+  linkType: hard
+
+"@types/faker@npm:^5.5.8":
+  version: 5.5.8
+  resolution: "@types/faker@npm:5.5.8"
+  checksum: eb642cac279cbaca46001d301284d51f4b9ca90f48b4b8edb9bbf4335edf70e0216ad921690edb2feec6502eb1bc9ed1fe3e3a27efc49f168ece88acfe2e68ac
   languageName: node
   linkType: hard
 
@@ -2752,6 +2761,13 @@ __metadata:
   version: 3.0.2
   resolution: "extend@npm:3.0.2"
   checksum: a50a8309ca65ea5d426382ff09f33586527882cf532931cb08ca786ea3146c0553310bda688710ff61d7668eba9f96b923fe1420cdf56a2c3eaf30fcab87b515
+  languageName: node
+  linkType: hard
+
+"faker@npm:^5.5.3":
+  version: 5.5.3
+  resolution: "faker@npm:5.5.3"
+  checksum: 684fd64c8d3897e54248f95b4f6319f75d97691b8500cd13adf4af2c28f9204f766c1d1aaa6b41338f0beaaa87256c3132f8708a1a8f189d122b92f6b98081c3
   languageName: node
   linkType: hard
 
