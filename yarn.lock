@@ -1348,34 +1348,37 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@njmaeff/firebase-auth-admin@workspace:src/firebase-auth-admin"
   dependencies:
-    "@types/jest": ^26.0.23
-    "@types/node": ^14.14.21
-    dotenv: ^10.0.0
     firebase-admin: ^9.9.0
-    jest: ^27.2.4
-    ts-jest: ^27.0.5
-    typescript: ^4.3.2
   languageName: unknown
   linkType: soft
 
-"@njmaeff/firebase-firebase-auth-client@workspace:src/firebase-auth-client":
+"@njmaeff/firebase-auth-client@workspace:*, @njmaeff/firebase-auth-client@workspace:src/firebase-auth-client":
   version: 0.0.0-use.local
-  resolution: "@njmaeff/firebase-firebase-auth-client@workspace:src/firebase-auth-client"
+  resolution: "@njmaeff/firebase-auth-client@workspace:src/firebase-auth-client"
   dependencies:
     "@njmaeff/firebase-auth-admin": "workspace:*"
-    "@types/jest": ^26.0.23
-    "@types/node": ^14.14.21
-    dotenv: ^10.0.0
     firebase: ^8.6.7
-    jest: ^27.2.4
-    ts-jest: ^27.0.5
-    typescript: ^4.3.2
   languageName: unknown
   linkType: soft
 
 "@njmaeff/root@workspace:.":
   version: 0.0.0-use.local
   resolution: "@njmaeff/root@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"@njmaeff/test@workspace:src/test":
+  version: 0.0.0-use.local
+  resolution: "@njmaeff/test@workspace:src/test"
+  dependencies:
+    "@njmaeff/firebase-auth-admin": "workspace:*"
+    "@njmaeff/firebase-auth-client": "workspace:*"
+    "@types/jest": ^26.0.23
+    "@types/node": ^14.14.21
+    dotenv: ^10.0.0
+    jest: ^27.2.4
+    ts-jest: ^27.0.5
+    typescript: ^4.3.2
   languageName: unknown
   linkType: soft
 

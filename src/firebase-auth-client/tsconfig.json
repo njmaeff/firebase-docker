@@ -1,8 +1,19 @@
 {
   "extends": "../node-tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "."
+  },
   "references": [
     {
       "path": "../firebase-auth-admin"
     }
+  ],
+  "include": [
+    "lib",
+  ],
+  "exclude": [
+    "**/__mocks__",
+    "**/__fixtures__"
   ]
 }

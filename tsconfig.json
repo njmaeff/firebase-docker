@@ -1,5 +1,8 @@
 {
   "extends": "./src/node-tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
   "references": [
     {
       "path": "src/firebase-auth-admin"
@@ -8,5 +11,7 @@
       "path": "src/firebase-auth-client"
     }
   ],
-  "include": []
+  "include": [
+    "src/test/__tests__/"
+  ]
 }

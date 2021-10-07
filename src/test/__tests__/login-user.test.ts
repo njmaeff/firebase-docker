@@ -1,4 +1,4 @@
-import {withFirebaseAuth} from "../lib/connect";
+import {withFirebaseAuth} from "@njmaeff/firebase-auth-client/lib/connect";
 import {
     addUserByEmail,
     removeUserByEmail

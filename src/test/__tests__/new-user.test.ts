@@ -1,4 +1,4 @@
-import {addUserByEmail, removeUserByEmail} from "../lib/user";
+import {addUserByEmail, removeUserByEmail} from "@njmaeff/firebase-auth-admin/lib/user";
 
 describe('user auth', () => {
     const user = 'default@my.domain'
