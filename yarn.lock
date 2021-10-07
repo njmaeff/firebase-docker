@@ -1361,12 +1361,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@njmaeff/root@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@njmaeff/root@workspace:."
-  languageName: unknown
-  linkType: soft
-
 "@njmaeff/test@workspace:src/test":
   version: 0.0.0-use.local
   resolution: "@njmaeff/test@workspace:src/test"
@@ -5003,6 +4997,12 @@ resolve@^1.20.0:
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
   languageName: node
   linkType: hard
+
+"root@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "root@workspace:."
+  languageName: unknown
+  linkType: soft
 
 "safe-buffer@npm:>=5.1.0, safe-buffer@npm:^5.0.1, safe-buffer@npm:~5.2.0":
   version: 5.2.1

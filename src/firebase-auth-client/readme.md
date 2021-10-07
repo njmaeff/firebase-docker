@@ -1,6 +1,6 @@
 # firebase-firebase-auth-client
 
-Create a `.env.local` file per below:
+You must have these environment variables set to use the client.
 
 ```.env
 FIREBASE_PROJECT_ID=my-project-id

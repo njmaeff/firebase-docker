@@ -1,6 +1,6 @@
 # firebase-auth-admin
 
-Create a `.env.local` file per below:
+You must have these environment variables set to use the admin SDK.
 
 ```.env
 FIREBASE_AUTH_EMULATOR_HOST=localhost:9099

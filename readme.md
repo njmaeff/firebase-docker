@@ -3,12 +3,23 @@
 ## Setup
 This example uses `docker` to run the emulators and `yarn` as a package manager.
 
-1. Ensure `docker` and `docker-compose` are installed.
+1. Install `docker` and `docker-compose`.
 1. Run `yarn install` to install project dependencies. `yarn` must be installed.
+
+This project uses typescript. You may build the source code by running this command in the root directory.
+```bash
+yarn build
+```
 
 ## Testing
 
-Change directory into one of the examples and run `yarn test`.
+Build the source code and test.
+
+```bash
+# run this command in the root directory
+yarn build
+yarn test
+```
 
 ## Important Files
 
@@ -19,7 +30,7 @@ Change directory into one of the examples and run `yarn test`.
 ## Other Notes
 - Use a volume to persist data and the downloaded emulators. The emulators are cached at this path: `~/.cache/firebase`.
 
-- You must reference the same fake `project-id` when using the emulators to share data between services.
+- You must reference the same fake `my-project-id` when using the emulators to share data between services.
 
 
 ## References

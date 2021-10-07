@@ -1,10 +1,14 @@
 {
-  "name": "@njmaeff/root",
+  "name": "root",
   "description": "demo project using firebase emulators",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "global:start-emulators": "docker-compose up -d firebase.local"
+    "global:start-emulators": "docker-compose up -d firebase.local",
+    "build": "tsc -b",
+    "build-watch": "tsc -b -w",
+    "clean": "tsc -b --clean",
+    "test": "yarn workspace @njmaeff/test test"
   },
   "workspaces": {
     "packages": [
