@@ -9,4 +9,4 @@ FIREBASE_PROJECT_ID=my-project-id
 
 ## Development
 
-Start the `firebase.local` service in the root directory to use the emulators.
+Start the `firebase` service in the root directory to use the emulators.

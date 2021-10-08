@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  firebase.local:
+  firebase:
     build:
       dockerfile: .docker/firebase.Dockerfile
       context: .

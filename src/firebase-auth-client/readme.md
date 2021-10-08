@@ -11,4 +11,4 @@ FIREBASE_AUTH_EMULATOR_HOST=localhost:9099
 
 ## Development
 
-Start the `firebase.local` service in the root directory to use the emulators.
+Start the `firebase` service in the root directory to use the emulators.

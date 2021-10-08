@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "global:start-emulators": "docker-compose up -d firebase.local",
+    "global:start-emulators": "docker-compose up -d firebase",
     "build": "tsc -b",
     "build-watch": "tsc -b -w",
     "clean": "tsc -b --clean",
