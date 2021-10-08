@@ -13,18 +13,15 @@ yarn build
 
 ## Testing
 
-Build the source code and test.
-
 ```bash
 # run this command in the root directory
-yarn build
 yarn test
 ```
 
 ## Important Files
 
 - `.firebaserc` - Add configuration data related to your firebase project.
-- `.firebase.json` - Add configuration data about your emulators. Enable emulators from this config. It's essential to have them listen on host IP `0.0.0.0` when using them in the container.
+- `.firebase.json` - Add configuration data about your emulators. Enable emulators from this config. They must listen on host IP `0.0.0.0` when using them in the container.
 
 
 ## Other Notes

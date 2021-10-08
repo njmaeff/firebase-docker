@@ -1,8 +1,9 @@
-import {withFirebaseAuth} from "@njmaeff/firebase-auth-client/lib/connect";
+import {withFirebaseAuth} from "../index";
+import {signInWithEmailAndPassword} from "firebase/auth";
 import {
     addUserByEmail,
     removeUserByEmail
-} from "@njmaeff/firebase-auth-admin/lib/user";
+} from "@njmaeff/firebase-auth-admin/user";
 
 describe('authentication', () => {
     const user = 'default@my.domain'
@@ -18,7 +19,7 @@ describe('authentication', () => {
 
     test('login', async () => {
         const auth = withFirebaseAuth();
-        const response = await auth.signInWithEmailAndPassword(user, password);
+        const response = await signInWithEmailAndPassword(auth, user, password);
         const token = await response.user.getIdToken();
         expect(token).toBeTruthy()
 

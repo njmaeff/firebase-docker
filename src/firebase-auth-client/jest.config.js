@@ -5,7 +5,7 @@ module.exports = {
     testEnvironment: 'node',
     globalSetup: path.join(__dirname, 'load-env'),
     testTimeout: 60 * 1000, // 1 minute
-    testMatch: ["**/__tests__/**/*.test.[jt]s?(x)"],
+    testMatch: ["**/__tests__/**/*.test.ts?(x)"],
     transformIgnorePatterns: [`/node_modules/(?!${esModules})`, `.js$`],
     modulePathIgnorePatterns: [".tmp", "out"],
     rootDir: __dirname,

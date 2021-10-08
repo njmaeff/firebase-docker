@@ -12,6 +12,6 @@
     }
   ],
   "include": [
-    "src/test/__tests__/"
+    "src/firebase-auth-client/__tests__/"
   ]
 }
